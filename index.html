@@ -3,30 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-<label for="currency1">currency1:</label>
+  <div class = "container">
+    <h1>Currency Converter</h1>
+    <div class = "curr1">
+<label for="currency1" ></label>
 
-<select name="currency1" id="currency1">
+
+<select name="currency1"  id="currency1">
   
 </select>
 
+
 <label for="amount">amount:</label>
-<input type="text" id="amount" name="amount"><br><br>
-<label for="currency2">currency2:</label>
+<input type="text" id="amount" name="amount" class = "input1">
+</div>
+<div class = "curr2">
+<label for="currency2"></label>
 
 <select name="currency2" id="currency2">
   
 </select>
-
-
- 
-  <input id="submit" type="submit" value="Submit" onclick="return currencyvalue();" />> 
-  <label for="Exchangedvalue">Exchangedvalue:</label>
-<input type="text" id="Exchangedvalue" name="Exchangedvalue"><br><br>
+<div class = "exchangevalue">
+  <label for="Exchangedvalue">Exchanged Value</label>
+  <div class = "value">
+<input type="text" id="Exchangedvalue" name="Exchangedvalue">
+</div>
+  </div>
+</div>
+  <div>
+  <input id="submit" type="submit" value="Submit" class = "button" onclick="return currencyvalue();" />
+</div>
+  
 
     <script type="text/javascript" src="index.js"></script>   
-    
+    </div>
 </body>
 </html>

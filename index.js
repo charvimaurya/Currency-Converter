@@ -1,3 +1,5 @@
+
+
 var select_currency1 = document.getElementById('currency1'),
     select_currency2 = document.getElementById('currency2');
 var options_for_select_tag;
@@ -65,4 +67,6 @@ async function getData() {
       return ;
 
     } 
+
+
     
